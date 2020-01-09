@@ -104,52 +104,38 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-xl-5 ml-auto">
                     <div class="section-heading">
-                        <h2>We Serve All Industries</h2>
-                        <p>We stay on top of our industry by being experts in yours. We measure our success by the results we drive for our clients.</p>
+                        <h2>Services offered</h2>
+                        <p>some of the services offered at Kampala cardio lab include:</p>
                     </div>
                     <div class="skills-content">
                         <!-- Single Progress Bar -->
                         <div class="single_progress_bar wow fadeInUp" data-wow-delay="0.5s">
-                            <h6>Website Design</h6>
-                            <div id="bar1" class="barfiller">
-                                <div class="tipWrap">
-                                    <span class="tip"></span>
-                                </div>
-                                <span class="fill" data-percentage="90"></span>
-                            </div>
+                            <h5>Electrocardiogram (ECG/EKG)</h5>
+                            <p>A test that reveals rythm problems such as the cause of slow or fast heart beat
                         </div>
                         <!-- Single Progress Bar -->
                         <div class="single_progress_bar wow fadeInUp" data-wow-delay="1s">
-                            <h6>Brand Strategy</h6>
-                            <div id="bar2" class="barfiller">
-                                <div class="tipWrap">
-                                    <span class="tip"></span>
-                                </div>
-                                <span class="fill" data-percentage="95"></span>
-                            </div>
+                            <h5>Echocardiogram</h5>                            
                         </div>
                         <!-- Single Progress Bar -->
                         <div class="single_progress_bar wow fadeInUp" data-wow-delay="1.5s">
-                            <h6>Digital Marketing</h6>
-                            <div id="bar3" class="barfiller">
-                                <div class="tipWrap">
-                                    <span class="tip"></span>
-                                </div>
-                                <span class="fill" data-percentage="85"></span>
-                            </div>
+                            <h5>Exercise Stress Test</h5>                            
                         </div>
                         <!-- Single Progress Bar -->
                         <div class="single_progress_bar wow fadeInUp" data-wow-delay="2s">
-                            <h6>Website Development</h6>
-                            <div id="bar4" class="barfiller">
-                                <div class="tipWrap">
-                                    <span class="tip"></span>
-                                </div>
-                                <span class="fill" data-percentage="90"></span>
-                            </div>
+                            <h5>Holter Monitoring</h5>
+                        </div>
+                        <div class="single_progress_bar wow fadeInUp" data-wow-delay="2s">
+                            <h5>Spirometry with oximetry</h5>
+                        </div>
+                        <div class="single_progress_bar wow fadeInUp" data-wow-delay="2s">
+                            <h5>Sleep apnea treatment</h5>
+                        </div>
+                        <div class="single_progress_bar wow fadeInUp" data-wow-delay="2s">
+                            <h5>Cardiac rehabilitation</h5>
                         </div>
                     </div>
-                    <a href="#" class="btn fancy-btn fancy-dark">Work with us</a>
+                    <a href="<?php echo base_url(); ?>index.php/Home/services" class="btn fancy-btn fancy-dark">Find out more</a>
                 </div>
             </div>
         </div>
