@@ -3,7 +3,7 @@
             <div class="container">
                 <div class="row">
                     <!-- Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-footer-widget">
                             <h6>Our Newsletter</h6>
                             <p>Subscribe to our mailing list to get the updates to your email inbox.</p>
@@ -21,7 +21,7 @@
                         </div>
                     </div>
                     <!-- Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-footer-widget">
                             <h6>Twitter Feed</h6>
                             <div class="single-tweet">
@@ -30,28 +30,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget">
-                            <h6>Link Categories</h6>
-                            <nav>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Agency</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Home</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Studio</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> About</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Studio</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Services</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Blogs</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Work</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Shop</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Privacy</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                    <!-- Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-3">
+                    
+                    <div class="col-12 col-sm-6 col-lg-4">
                         <div class="single-footer-widget">
                             <h6>Contact Us</h6>
                             <p>+256 759 277 332, +256 392 260041 <br>kampalacardiolab@gmail.com
