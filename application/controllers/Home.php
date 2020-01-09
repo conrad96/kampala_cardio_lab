@@ -7,7 +7,8 @@ class Home extends CI_Controller {
         $this->load->view("index", $data);
     }
     function about(){
-		$this->load->view("about");
+		$data['page'] = 'About';
+		$this->load->view("about", $data);
 	}
 	function services(){
 		$this->load->view("services");

@@ -46,13 +46,13 @@
                         <div class="row no-gutters">
                             <div class="col-12 col-md-4">
                                 <div class="single-top-feature">
-                                    <h5><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> Reliability</h5>
+                                    <h5><i class="fa fa-clock-o" aria-hidden="true"></i> Expertise</h5>                                    
                                     <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
                                 </div>
                             </div>
                             <div class="col-12 col-md-4">
                                 <div class="single-top-feature">
-                                    <h5><i class="fa fa-clock-o" aria-hidden="true"></i> Expertise</h5>
+                                    <h5><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> Reliability</h5>
                                     <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
                                 </div>
                             </div>
@@ -85,7 +85,7 @@
 
                 <div class="col-12 col-lg-6 col-xl-5 ml-xl-auto">
                     <div class="about-us-thumb wow fadeInUp" data-wow-delay="0.5s">
-                        <img src="img/bg-img/about-1.jpg" alt="">
+                        <img src="<?php  echo base_url(); ?>assets/img/bg-img/about-1.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -97,7 +97,7 @@
     <section class="fancy-skills-area section-padding-200">
         <!-- Side Thumb -->
         <div class="skills-side-thumb">
-            <img src="img/bg-img/skills.png" alt="">
+            <img src="<?php  echo base_url(); ?>assets/img/bg-img/skills.png" alt="">
         </div>
         <!-- Skills Content -->
         <div class="container">
@@ -208,7 +208,7 @@
                         <div class="single-testimonial d-md-flex align-items-center">
                             <!-- Testimonial Thumb -->
                             <div class="testimonial-thumbnail">
-                                <img src="img/clients-img/1.jpg" alt="">
+                                <img src="<?php  echo base_url(); ?>assets/img/clients-img/1.jpg" alt="">
                             </div>
                             <!-- Content -->
                             <div class="testimonilas-content">
@@ -221,7 +221,7 @@
                         <div class="single-testimonial d-md-flex align-items-center">
                             <!-- Testimonial Thumb -->
                             <div class="testimonial-thumbnail">
-                                <img src="img/clients-img/1.jpg" alt="">
+                                <img src="<?php  echo base_url(); ?>assets/img/clients-img/1.jpg" alt="">
                             </div>
                             <!-- Content -->
                             <div class="testimonilas-content">
@@ -234,7 +234,7 @@
                         <div class="single-testimonial d-md-flex align-items-center">
                             <!-- Testimonial Thumb -->
                             <div class="testimonial-thumbnail">
-                                <img src="img/clients-img/1.jpg" alt="">
+                                <img src="<?php  echo base_url(); ?>assets/img/clients-img/1.jpg" alt="">
                             </div>
                             <!-- Content -->
                             <div class="testimonilas-content">
@@ -282,7 +282,7 @@
                 <!-- Single Blog -->
                 <div class="col-12 col-md-4">
                     <div class="single-blog-area wow fadeInUp" data-wow-delay="0.5s">
-                        <img src="img/blog-img/blog-1.jpg" alt="">
+                        <img src="<?php  echo base_url(); ?>assets/img/blog-img/blog-1.jpg" alt="">
                         <div class="blog-content">
                             <h5><a href="static-page.html">We Create Experiences</a></h5>
                             <p>The Fancy that recognize the talent and effort of the best web designers, developers and agencies in the world.</p>
@@ -293,7 +293,7 @@
                 <!-- Single Blog -->
                 <div class="col-12 col-md-4">
                     <div class="single-blog-area wow fadeInUp" data-wow-delay="1s">
-                        <img src="img/blog-img/blog-2.jpg" alt="">
+                        <img src="<?php  echo base_url(); ?>assets/img/blog-img/blog-2.jpg" alt="">
                         <div class="blog-content">
                             <h5><a href="static-page.html">Simple, Fast And Fun</a></h5>
                             <p>The Fancy that recognize the talent and effort of the best web designers, developers and agencies in the world.</p>
@@ -304,7 +304,7 @@
                 <!-- Single Blog -->
                 <div class="col-12 col-md-4">
                     <div class="single-blog-area wow fadeInUp" data-wow-delay="1.5s">
-                        <img src="img/blog-img/blog-3.jpg" alt="">
+                        <img src="<?php  echo base_url(); ?>assets/img/blog-img/blog-3.jpg" alt="">
                         <div class="blog-content">
                             <h5><a href="static-page.html">Device Friendly</a></h5>
                             <p>The Fancy that recognize the talent and effort of the best web designers, developers and agencies in the world.</p>
