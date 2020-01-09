@@ -15,4 +15,7 @@ class Home extends CI_Controller {
 	function contact(){
         $this->load->view("contact");
 	}
+	function appointment(){
+		$this->load->view("appointment");
+	}
 }

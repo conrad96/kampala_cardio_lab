@@ -8,8 +8,8 @@
                             <a href="https://www.youtube.com/watch?v=f5BBJ4ySgpo" class="video--play--btn"><i class="fa fa-play" aria-hidden="true"></i> Watch The Overview</a>
                         </div>
                         <h2>Website Design, Brand Strategy, Digital Marketing with Stunning Results</h2>
-                        <a href="#" class="btn fancy-btn fancy-active">About Us</a>
-                        <a href="#" class="btn fancy-btn">Get a quote</a>
+                        <a href="<?php echo base_url(); ?>index.php/Home/about" class="btn fancy-btn fancy-active">About Us</a>
+                        <a href="<?php echo base_url(); ?>index.php/Home/appointment" class="btn fancy-btn">Make appointment</a>
                     </div>
                 </div>
             </div>

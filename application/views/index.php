@@ -75,11 +75,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-6">
-                    <div class="about-us-text">
-                        <h2>We Are A Creative Digital Agency Focused on Growing Brands Online</h2>
-                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderi.</p>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese mollit anim id est laborum. Sed ut perspiciatis unde omnis iste.</p>
-                        <a href="#" class="btn fancy-btn fancy-dark">Read More</a>
+                    <div class="about-us-text">                        
+                        <h2>Kampala CardioLab (KCL) </h2>
+                            <p>We specialize in the treatment and management of cardiovascular diseases while emphasizing preventive, and overall health and wellness of patients with state-of-the-art equipment and well- trained staff to optimize the care of each patient.</p> 
+                            <p>Because many factors affect heart health like exercise, diet, environment and heredity, we strive to provide the most comprehensive cardiovascular care possible in order to optimize the care and well- being of each patient.</p>
+                        <a href="<?php echo base_url(); ?>index.php/Home/about" class="btn fancy-btn fancy-dark">Read More</a>
                     </div>
                 </div>
 
