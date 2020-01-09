@@ -16,13 +16,13 @@
 
 /* ***** Import All CSS ***** */
 
-@import 'css/bootstrap/bootstrap.min.css';
-@import 'css/others/animate.css';
-@import 'css/others/magnific-popup.css';
-@import 'css/others/owl.carousel.min.css';
-@import 'css/others/font-awesome.min.css';
-@import 'css/others/elegant-font.css';
-@import 'css/others/themify-icons.css';
+@import '../css/bootstrap/bootstrap.min.css';
+@import '../css/others/animate.css';
+@import '../css/others/magnific-popup.css';
+@import '../css/others/owl.carousel.min.css';
+@import '../css/others/font-awesome.min.css';
+@import '../css/others/elegant-font.css';
+@import '../css/others/themify-icons.css';
 
 /* --------------------
 :: 1.0 Base CSS
