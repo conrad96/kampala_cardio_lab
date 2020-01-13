@@ -235,7 +235,7 @@
                     <div class="cta-content text-center">
                         <h2>Want to schedule appontment ?</h2>
                         <p>Click the button below to schedule an appoinment with us.</p>
-                        <a href="#" class="btn fancy-btn">Make Appointment</a>
+                        <a href="<?php echo base_url(); ?>index.php/Home/appointment" rel="modal:open" class="btn fancy-btn">Make Appointment</a>
                     </div>
                 </div>
             </div>

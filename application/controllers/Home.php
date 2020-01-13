@@ -17,6 +17,6 @@ class Home extends CI_Controller {
         $this->load->view("contact");
 	}
 	function appointment(){
-		$this->load->view("appointment");
-	}
+		$this->load->view("appointment_form");
+	}	
 }

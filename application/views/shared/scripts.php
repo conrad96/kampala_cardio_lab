@@ -8,6 +8,6 @@
 <script src="<?php echo base_url(); ?>assets/js/others/plugins.js"></script>
 <!-- Active JS -->
 <script src="<?php echo base_url(); ?>assets/js/active.js"></script>
-
+<script src="<?php echo base_url(); ?>assets/js/jquery.modal.min.js"></script>
 <!-- custom scripts-->
 <script src="<?php echo base_url(); ?>assets/js/kcl.js"></script>
