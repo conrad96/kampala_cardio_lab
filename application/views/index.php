@@ -115,24 +115,30 @@
                         </div>
                         <!-- Single Progress Bar -->
                         <div class="single_progress_bar wow fadeInUp" data-wow-delay="1s">
-                            <h5>Echocardiogram</h5>                            
+                            <h5>Echocardiogram</h5> 
+                            <p>A test that allows the doctor to see how the heart is beating and pumping blood.</p>                           
                         </div>
                         <!-- Single Progress Bar -->
                         <div class="single_progress_bar wow fadeInUp" data-wow-delay="1.5s">
-                            <h5>Exercise Stress Test</h5>                            
+                            <h5>Exercise Stress Test</h5>     
+                            <p>A test used to see how the heart responds during times when it is working its hardest</p>                       
                         </div>
                         <!-- Single Progress Bar -->
                         <div class="single_progress_bar wow fadeInUp" data-wow-delay="2s">
                             <h5>Holter Monitoring</h5>
+                            <p>A test used to detect irregularities in your heart rhythm that an electrocardiogram cannot detect.</p>
                         </div>
                         <div class="single_progress_bar wow fadeInUp" data-wow-delay="2s">
                             <h5>Spirometry with oximetry</h5>
+                            <p>A common test used to assess how well your lungs work by measuring how much air you inhale, how much you exhale and how quickly you exhale.</p>
                         </div>
                         <div class="single_progress_bar wow fadeInUp" data-wow-delay="2s">
                             <h5>Sleep apnea treatment</h5>
+                            <p>A test used to diagnose sleep disorders.</p>
                         </div>
                         <div class="single_progress_bar wow fadeInUp" data-wow-delay="2s">
                             <h5>Cardiac rehabilitation</h5>
+                            <p>A customized outpatient program of exercise and education to help improve one’s health.</p>
                         </div>
                     </div>
                     <a href="<?php echo base_url(); ?>index.php/Home/services" class="btn fancy-btn fancy-dark">Find out more</a>
