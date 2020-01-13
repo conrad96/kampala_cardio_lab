@@ -45,6 +45,7 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="<?php echo base_url(); ?>index.php/Home/team" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Team</a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/Home/team">Our Team</a>                                        
                                         <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/Home/partnerships">Partnerships</a>                                        
                                     </div>
                                 </li>

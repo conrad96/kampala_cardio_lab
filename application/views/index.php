@@ -85,7 +85,7 @@
 
                 <div class="col-12 col-lg-6 col-xl-5 ml-xl-auto">
                     <div class="about-us-thumb wow fadeInUp" data-wow-delay="0.5s">
-                        <img src="<?php  echo base_url(); ?>assets/img/bg-img/about-1.jpg" alt="">
+                        <img src="<?php  echo base_url(); ?>assets/img/pictures/reception_2.jpeg" alt="">
                     </div>
                 </div>
             </div>
@@ -97,7 +97,7 @@
     <section class="fancy-skills-area section-padding-200">
         <!-- Side Thumb -->
         <div class="skills-side-thumb">
-            <img src="<?php  echo base_url(); ?>assets/img/bg-img/skills.png" alt="">
+            <img src="<?php  echo base_url(); ?>assets/img/pictures/reception.jpeg" alt="">
         </div>
         <!-- Skills Content -->
         <div class="container">
