@@ -18,8 +18,14 @@
                                         <a class="dropdown-item" href="contact.html">Contact</a>
                                     </div>
                                 </li> -->
-                                <li class="nav-item">
+                                <!-- <li class="nav-item">
                                     <a class="nav-link" href="<?php echo base_url(); ?>index.php/Home/about">About</a>
+                                </li> -->
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="<?php echo base_url(); ?>index.php/Home/about" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="index.html">Who We Are</a>                                        
+                                    </div>
                                 </li>
                                 <!-- <li class="nav-item">
                                     <a class="nav-link" href="<?php echo base_url(); ?>index.php/Home/services">Services</a>
@@ -27,13 +33,19 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="index.html">Cardiac Rehabilitation</a>
-                                        <a class="dropdown-item" href="static-page.html">Diagnostic Echocardiography</a>
-                                        <a class="dropdown-item" href="contact.html">ECG Monitoring</a>
-                                        <a class="dropdown-item" href="contact.html">Excercise Stress Test</a>
-                                        <a class="dropdown-item" href="contact.html">Holter Monitoring</a>
-                                        <a class="dropdown-item" href="contact.html">Sleep Apnea Treatment</a>
-                                        <a class="dropdown-item" href="contact.html">Spirometry Test</a>
+                                        <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/Home/cardiac_rehabilitaion">Cardiac Rehabilitation</a>
+                                        <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/Home/diagnostic_echocardiography">Diagnostic Echocardiography</a>
+                                        <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/Home/ecg_monitoring">ECG Monitoring</a>
+                                        <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/Home/exercise_stress_test">Excercise Stress Test</a>
+                                        <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/Home/holter_monitoring">Holter Monitoring</a>
+                                        <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/Home/sleep_apnea_treatment">Sleep Apnea Treatment</a>
+                                        <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/Home/spirometry_test">Spirometry Test</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="<?php echo base_url(); ?>index.php/Home/team" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Team</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/Home/partnerships">Partnerships</a>                                        
                                     </div>
                                 </li>
                                 <li class="nav-item">
