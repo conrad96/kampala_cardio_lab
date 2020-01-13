@@ -110,35 +110,35 @@
                     <div class="skills-content">
                         <!-- Single Progress Bar -->
                         <div class="single_progress_bar wow fadeInUp" data-wow-delay="0.5s">
-                            <h5>Electrocardiogram (ECG/EKG)</h5>
-                            <p>A test that reveals rythm problems such as the cause of slow or fast heart beat
+                            <h5 class="services-list">Electrocardiogram (ECG/EKG)</h5>
+                            <!-- <p>A test that reveals rythm problems such as the cause of slow or fast heart beat -->
                         </div>
                         <!-- Single Progress Bar -->
                         <div class="single_progress_bar wow fadeInUp" data-wow-delay="1s">
-                            <h5>Echocardiogram</h5> 
-                            <p>A test that allows the doctor to see how the heart is beating and pumping blood.</p>                           
+                            <h5 class="services-list">Echocardiogram</h5> 
+                            <!-- <p>A test that allows the doctor to see how the heart is beating and pumping blood.</p>                            -->
                         </div>
                         <!-- Single Progress Bar -->
                         <div class="single_progress_bar wow fadeInUp" data-wow-delay="1.5s">
-                            <h5>Exercise Stress Test</h5>     
-                            <p>A test used to see how the heart responds during times when it is working its hardest</p>                       
+                            <h5 class="services-list">Exercise Stress Test</h5>     
+                            <!-- <p>A test used to see how the heart responds during times when it is working its hardest</p>                        -->
                         </div>
                         <!-- Single Progress Bar -->
                         <div class="single_progress_bar wow fadeInUp" data-wow-delay="2s">
-                            <h5>Holter Monitoring</h5>
-                            <p>A test used to detect irregularities in your heart rhythm that an electrocardiogram cannot detect.</p>
+                            <h5 class="services-list">Holter Monitoring</h5>
+                            <!-- <p>A test used to detect irregularities in your heart rhythm that an electrocardiogram cannot detect.</p> -->
                         </div>
                         <div class="single_progress_bar wow fadeInUp" data-wow-delay="2s">
-                            <h5>Spirometry with oximetry</h5>
-                            <p>A common test used to assess how well your lungs work by measuring how much air you inhale, how much you exhale and how quickly you exhale.</p>
+                            <h5 class="services-list">Spirometry with oximetry</h5>
+                            <!-- <p>A common test used to assess how well your lungs work by measuring how much air you inhale, how much you exhale and how quickly you exhale.</p> -->
                         </div>
                         <div class="single_progress_bar wow fadeInUp" data-wow-delay="2s">
-                            <h5>Sleep apnea treatment</h5>
-                            <p>A test used to diagnose sleep disorders.</p>
+                            <h5 class="services-list">Sleep apnea treatment</h5>
+                            <!-- <p>A test used to diagnose sleep disorders.</p> -->
                         </div>
                         <div class="single_progress_bar wow fadeInUp" data-wow-delay="2s">
-                            <h5>Cardiac rehabilitation</h5>
-                            <p>A customized outpatient program of exercise and education to help improve one’s health.</p>
+                            <h5 class="services-list">Cardiac rehabilitation</h5>
+                            <!-- <p>A customized outpatient program of exercise and education to help improve one’s health.</p> -->
                         </div>
                     </div>
                     <a href="<?php echo base_url(); ?>index.php/Home/services" class="btn fancy-btn fancy-dark">Find out more</a>
@@ -155,7 +155,7 @@
                 <div class="col-12">
                     <div class="section-heading heading-white text-center">
                         <h2>Our Services</h2>
-                        <p>We Are A Creative Digital Agency. Focused on Growing Brands Online</p>
+                        <p>We diagnose and treat cardiovascular conditions while emphasizing preventive, and overall health and wellness of patients with state-of-the-art equipment and well-trained staff to optimize the care of each patient.  This is achieved through an evaluation process that involves the use of the following</p>
                     </div>
                 </div>
             </div>
@@ -165,24 +165,50 @@
                 <div class="col-12 col-md-4">
                     <div class="single-service-area text-center wow fadeInUp" data-wow-delay="0.5s">
                         <i class="ti-ruler-pencil"></i>
-                        <h5>Website Design</h5>
-                        <p>The Fancy that recognize the talent and effort of the best web designers, developers and agencies in the world.</p>
+                        <h5>Electrocardiogram (ECG/EKG)</h5>
+                        <p>A test that reveals rhythm problems such as the cause of slow or fast heart beat.</p>
                     </div>
                 </div>
                 <!-- Single Service -->
                 <div class="col-12 col-md-4">
                     <div class="single-service-area text-center wow fadeInUp" data-wow-delay="1s">
                         <i class="ti-desktop"></i>
-                        <h5>Website Development</h5>
-                        <p>The Fancy that recognize the talent and effort of the best web designers, developers and agencies in the world.</p>
+                        <h5>Echocardiogram</h5>
+                        <p>A test that allows the doctor to see how the heart is beating and pumping blood.</p>
                     </div>
                 </div>
                 <!-- Single Service -->
                 <div class="col-12 col-md-4">
                     <div class="single-service-area text-center wow fadeInUp" data-wow-delay="1.5s">
                         <i class="ti-announcement"></i>
-                        <h5>Digital Marketing</h5>
-                        <p>The Fancy that recognize the talent and effort of the best web designers, developers and agencies in the world.</p>
+                        <h5>Exercise Stress Test</h5>
+                        <p>A test used to see how the heart responds during times when it is working its hardest.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Single Service -->
+                <div class="col-12 col-md-4">
+                    <div class="single-service-area text-center wow fadeInUp" data-wow-delay="0.5s">
+                        <i class="ti-ruler-pencil"></i>
+                        <h5>Holter Monitoring</h5>
+                        <p>A test used to detect irregularities in your heart rhythm that an electrocardiogram couldn't detect.</p>
+                    </div>
+                </div>
+                <!-- Single Service -->
+                <div class="col-12 col-md-4">
+                    <div class="single-service-area text-center wow fadeInUp" data-wow-delay="1s">
+                        <i class="ti-desktop"></i>
+                        <h5>Spirometry with Oximetry</h5>
+                        <p>A common test used to assess how well your lungs work by measuring how much air you inhale, how much you exhale and how quickly you exhale.</p>
+                    </div>
+                </div>
+                <!-- Single Service -->
+                <div class="col-12 col-md-4">
+                    <div class="single-service-area text-center wow fadeInUp" data-wow-delay="1.5s">
+                        <i class="ti-announcement"></i>
+                        <h5>Sleep Apnea Treatment</h5>
+                        <p>A test used to diagnose sleep disorders.</p>
                     </div>
                 </div>
             </div>

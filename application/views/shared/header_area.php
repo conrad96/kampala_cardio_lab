@@ -21,8 +21,20 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo base_url(); ?>index.php/Home/about">About</a>
                                 </li>
-                                <li class="nav-item">
+                                <!-- <li class="nav-item">
                                     <a class="nav-link" href="<?php echo base_url(); ?>index.php/Home/services">Services</a>
+                                </li> -->
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="index.html">Cardiac Rehabilitation</a>
+                                        <a class="dropdown-item" href="static-page.html">Diagnostic Echocardiography</a>
+                                        <a class="dropdown-item" href="contact.html">ECG Monitoring</a>
+                                        <a class="dropdown-item" href="contact.html">Excercise Stress Test</a>
+                                        <a class="dropdown-item" href="contact.html">Holter Monitoring</a>
+                                        <a class="dropdown-item" href="contact.html">Sleep Apnea Treatment</a>
+                                        <a class="dropdown-item" href="contact.html">Spirometry Test</a>
+                                    </div>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo base_url(); ?>index.php/Home/contact">Contact Us</a>
