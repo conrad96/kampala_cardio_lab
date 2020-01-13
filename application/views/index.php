@@ -163,7 +163,7 @@
             <div class="row">
                 <!-- Single Service -->
                 <div class="col-12 col-md-4">
-                    <div class="single-service-area text-center wow fadeInUp" data-wow-delay="0.5s">
+                    <div data-service="diagnostic_echocardiography" class="single-service-area text-center wow fadeInUp service-card" data-wow-delay="0.5s">
                         <img class="services-icon" src="<?php echo base_url(); ?>assets/img/pictures/electrodiagram-150x149.jpg" />
                         <h5>Electrocardiogram (ECG/EKG)</h5>
                         <p>A test that reveals rhythm problems such as the cause of slow or fast heart beat.</p>
@@ -171,15 +171,15 @@
                 </div>
                 <!-- Single Service -->
                 <div class="col-12 col-md-4">
-                    <div class="single-service-area text-center wow fadeInUp" data-wow-delay="1s">
-                    <img class="services-icon" src="<?php echo base_url(); ?>assets/img/pictures/diagnostic-150x150.jpg" />
+                    <div data-service="ecg_monitoring" class="service-card single-service-area text-center wow fadeInUp" data-wow-delay="1s">
+                        <img class="services-icon" src="<?php echo base_url(); ?>assets/img/pictures/diagnostic-150x150.jpg" />
                         <h5>Echocardiogram</h5>
                         <p>A test that allows the doctor to see how the heart is beating and pumping blood.</p>
                     </div>
                 </div>
                 <!-- Single Service -->
                 <div class="col-12 col-md-4">
-                    <div class="single-service-area text-center wow fadeInUp" data-wow-delay="1.5s">
+                    <div data-service="exercise_stress_test" class="service-card single-service-area text-center wow fadeInUp" data-wow-delay="1.5s">
                         <img class="services-icon" src="<?php echo base_url(); ?>assets/img/pictures/exercise-150x150.jpg" />
                         <h5>Exercise Stress Test</h5>
                         <p>A test used to see how the heart responds during times when it is working its hardest.</p>
@@ -189,7 +189,7 @@
             <div class="row">
                 <!-- Single Service -->
                 <div class="col-12 col-md-4">
-                    <div class="single-service-area text-center wow fadeInUp" data-wow-delay="0.5s">
+                    <div data-service="holter_monitoring" class="service-card single-service-area text-center wow fadeInUp" data-wow-delay="0.5s">
                         <img class="services-icon" src="<?php echo base_url(); ?>assets/img/pictures/holter-150x150.jpg" />
                         <h5>Holter Monitoring</h5>
                         <p>A test used to detect irregularities in your heart rhythm that an electrocardiogram couldn't detect.</p>
@@ -197,7 +197,7 @@
                 </div>
                 <!-- Single Service -->
                 <div class="col-12 col-md-4">
-                    <div class="single-service-area text-center wow fadeInUp" data-wow-delay="1s">
+                    <div data-service="spirometry_test" class="service-card single-service-area text-center wow fadeInUp" data-wow-delay="1s">
                         <img class="services-icon" src="<?php echo base_url(); ?>assets/img/pictures/spirometry-150x150.png" />
                         <h5>Spirometry with Oximetry</h5>
                         <p>A common test used to assess how well your lungs work by measuring how much air you inhale, how much you exhale and how quickly you exhale.</p>
@@ -205,10 +205,17 @@
                 </div>
                 <!-- Single Service -->
                 <div class="col-12 col-md-4">
-                    <div class="single-service-area text-center wow fadeInUp" data-wow-delay="1.5s">
+                    <div data-service="sleep_apnea_treatment" class="service-card single-service-area text-center wow fadeInUp" data-wow-delay="1.5s">
                         <img class="services-icon" src="<?php echo base_url(); ?>assets/img/pictures/CPAP-150x150.png" />
                         <h5>Sleep Apnea Treatment</h5>
                         <p>A test used to diagnose sleep disorders.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div data-service="cardiac_rehabilitation" class="service-card single-service-area text-center wow fadeInUp" data-wow-delay="1.5s">
+                        <img class="services-icon" src="<?php echo base_url(); ?>assets/img/pictures/cardiac-150x150.jpg" />
+                        <h5>Cardiac Rehabilitation</h5>
+                        <p>A customized outpatient program of exercise and education to help improve one’s health.</p>
                     </div>
                 </div>
             </div>

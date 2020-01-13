@@ -21,4 +21,5 @@
     <link href="<?php echo base_url(); ?>assets/css/responsive/responsive.css" rel="stylesheet">
 
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/kcl.css" >
+    <input type="hidden" value="<?php echo base_url(); ?>" id="getBaseURL" />
 </head>
