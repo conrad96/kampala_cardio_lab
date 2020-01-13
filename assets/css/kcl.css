@@ -6,3 +6,6 @@
 .dropdown-item:hover{
     background-color: lightgrey;
 }
+.services-icon{
+    border-radius: 15px;
+}
