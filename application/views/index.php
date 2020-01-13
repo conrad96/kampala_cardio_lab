@@ -223,9 +223,9 @@
     </section>
     <!-- ***** Service Area End ***** -->
 
-    <!-- ***** Testimonials Area Start ***** -->
+    <!-- *****fun facts area ***** -->
    <?php $this->load->view("shared/fun_facts"); ?>
-    <!-- ***** Testimonials Area End ***** -->
+    <!-- ***** fun facts area ***** -->
 
     <!-- ***** CTA Area Start ***** -->
     <section class="fancy-cta-area bg-img bg-overlay section-padding-100" style="background-image: url(img/bg-img/hero-3.jpg)">
@@ -233,9 +233,9 @@
             <div class="row">
                 <div class="col-12">
                     <div class="cta-content text-center">
-                        <h2>Ready To Discuss Your Project?</h2>
-                        <p>There are many ways to contact us. You may drop us a line, give us a call or send an email, choose what suits you the most.</p>
-                        <a href="#" class="btn fancy-btn">Work with us</a>
+                        <h2>Want to schedule appontment ?</h2>
+                        <p>Click the button below to schedule an appoinment with us.</p>
+                        <a href="#" class="btn fancy-btn">Make Appointment</a>
                     </div>
                 </div>
             </div>
