@@ -141,7 +141,7 @@
                             <!-- <p>A customized outpatient program of exercise and education to help improve one’s health.</p> -->
                         </div>
                     </div>
-                    <a href="<?php echo base_url(); ?>index.php/Home/services" class="btn fancy-btn fancy-dark">Find out more</a>
+                    <a href="#" id="findOutBtn" class="btn fancy-btn fancy-dark">Find out more</a>
                 </div>
             </div>
         </div>
@@ -153,7 +153,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="section-heading heading-white text-center">
+                    <div id="serviceSection" class="section-heading heading-white text-center">
                         <h2>Our Services</h2>
                         <p>We diagnose and treat cardiovascular conditions while emphasizing preventive, and overall health and wellness of patients with state-of-the-art equipment and well-trained staff to optimize the care of each patient.  This is achieved through an evaluation process that involves the use of the following</p>
                     </div>
