@@ -1,4 +1,4 @@
-<div class="fancy-hero-area bg-img bg-overlay animated-img" style="background-image: url(<?php echo base_url(); ?>assets/img/bg-img/hero-1.jpg);">
+<div class="fancy-hero-area bg-img bg-overlay animated-img" style="background-image: url(<?php echo base_url(); ?>assets/img/pictures/KCL-094-1024x684.jpg);">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">

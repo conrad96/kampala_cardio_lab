@@ -19,4 +19,8 @@ class Home extends CI_Controller {
 	function appointment(){
 		$this->load->view("appointment_form");
 	}	
+	function make_appointment(){
+		//send email to cardiolab gmail account
+		
+	}
 }

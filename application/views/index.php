@@ -149,7 +149,7 @@
     <!-- ***** Skills Area End ***** -->
 
     <!-- ***** Service Area Start ***** -->
-    <section class="fancy-services-area bg-img bg-overlay section-padding-100-70" style="background-image: url(img/bg-img/hero-2.jpg)">
+    <section class="fancy-services-area bg-img bg-overlay section-padding-100-70" style="background-image: url('<?php echo base_url(); ?>assets/img/pictures/KCL-107-230x154.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-12">
