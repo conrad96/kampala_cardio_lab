@@ -32,3 +32,9 @@ $(document).on('submit', '#appointmentForm', function(event){
         }
     });
 });
+
+$(document).on('click', '#make-appointment-btn', function(event){
+    $('html, body').animate({
+        scrollTop: $("#appointment-area").offset().top
+    }, 5000);
+});

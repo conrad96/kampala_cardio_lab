@@ -9,7 +9,7 @@
                         </div>
                         <h2></h2>
                         <a href="<?php echo base_url(); ?>index.php/Home/about" class="btn fancy-btn fancy-active">About Us</a>
-                        <a href="<?php echo base_url(); ?>index.php/Home/appointment" class="btn fancy-btn">Make appointment</a>
+                        <a href="#" id="make-appointment-btn" class="btn fancy-btn">Make appointment</a>
                     </div>
                 </div>
             </div>

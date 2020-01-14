@@ -106,4 +106,5 @@
                 </div>
             </div>
         </div>
+        <div id="appointment-area"></div>
     </section>
