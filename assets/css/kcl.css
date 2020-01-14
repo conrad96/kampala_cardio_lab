@@ -9,3 +9,9 @@
 .services-icon{
     border-radius: 15px;
 }
+.values-list{
+    list-style-type: circle;
+}
+.values-list > li:hover {
+    background-color: lightgrey;
+}

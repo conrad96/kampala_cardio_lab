@@ -24,7 +24,7 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="<?php echo base_url(); ?>index.php/Home/about" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="index.html">Who We Are</a>                                        
+                                        <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/Home/about">Who We Are</a>                                        
                                     </div>
                                 </li>
                                 <!-- <li class="nav-item">
