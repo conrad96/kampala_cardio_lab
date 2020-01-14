@@ -2,7 +2,7 @@ $(document).on('click', '#findOutBtn', function(event){
 //focus on services div
     $('html, body').animate({
         scrollTop: $("#serviceSection").offset().top
-    }, 'slow');
+    }, 5000);
 });
 
 $(document).on('click', '.service-card', function(event){
