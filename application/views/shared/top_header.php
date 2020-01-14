@@ -5,7 +5,7 @@
                     <div class="fancy-hero-content text-center">
                         <!-- Video Overview -->
                         <div class="video-overview">
-                            <a href="https://www.youtube.com/watch?v=f5BBJ4ySgpo" class="video--play--btn"><i class="fa fa-play" aria-hidden="true"></i> Watch The Overview</a>
+                            <a href="<?php echo base_url(); ?>assets/clips/overview.mp4" class="video--play--btn"><i class="fa fa-play" aria-hidden="true"></i> Watch The Overview</a>
                         </div>
                         <h2></h2>
                         <a href="<?php echo base_url(); ?>index.php/Home/about" class="btn fancy-btn fancy-active">About Us</a>
