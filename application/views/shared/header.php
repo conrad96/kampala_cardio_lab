@@ -12,7 +12,7 @@
     <title>Kampala Cardio Lab - <?php echo strtoupper(!empty($page)? $page : ''); ?></title>
 
     <!-- Favicon -->
-    <link rel="icon" href="<?php echo base_url(); ?>assets/img/core-img/favicon.ico">
+    <link rel="icon" href="<?php echo base_url(); ?>assets/img/pictures/favicon.png">
 
     <!-- Core Stylesheet -->
     <link href="<?php echo base_url(); ?>assets/css/style.css" rel="stylesheet">
