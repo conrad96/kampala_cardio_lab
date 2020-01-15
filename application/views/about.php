@@ -78,10 +78,10 @@
                                     <p></p>
                                     <h4>Values</h4>
                                     <ul class="values-list list-group">
-                                        <li class="list-group-item">Integrity</li>
-                                        <li class="list-group-item">Respect</li>
-                                        <li class="list-group-item">Excellence in service</li>
-                                        <li class="list-group-item">Stewardship of the God-given knowledge and skill</li>
+                                        <li class="list-group-item"><span class="about-values">R</span>espect</li>
+                                        <li class="list-group-item"><span class="about-values">I</span>ntegrity</li>
+                                        <li class="list-group-item"><span class="about-values">S</span>tewardship of the God-given knowledge and skill</li>
+                                        <li class="list-group-item"><span class="about-values">E</span>xcellence in service</li>                                        
                                     </ul>
                                     <p></p>
                                     <!-- carousel of patient pics --> 
