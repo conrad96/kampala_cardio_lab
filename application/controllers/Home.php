@@ -23,4 +23,13 @@ class Home extends CI_Controller {
 		//send email to cardiolab gmail account
 		
 	}
+	function pages($page = ''){
+		$data['page_content'] = array();
+		$data['resources'] = array();
+		if(!empty($page)){
+			$title = str_replace('_', ' ', $page);
+			$data['page_title'] = ucwords($title);
+		}
+		$this->load->view("pages/index", $data);
+	}
 }

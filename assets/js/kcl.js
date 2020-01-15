@@ -38,3 +38,13 @@ $(document).on('click', '#make-appointment-btn', function(event){
         scrollTop: $("#appointment-area").offset().top
     }, 5000);
 });
+
+$(document).on('mouseenter', '#bg-disp', function(event){
+    //change to overlay
+    $("#bg-disp").addClass("bg-overlay");
+});
+
+$(document).on('mouseleave', '#bg-disp', function(event){
+    //change to overlay
+    $("#bg-disp").removeClass("bg-overlay");
+});
