@@ -1,3 +1,4 @@
+
 $(document).on('click', '#findOutBtn', function(event){
 //focus on services div
     $('html, body').animate({

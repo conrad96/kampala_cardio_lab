@@ -55,34 +55,38 @@
                     <div class="row no-gutters">
 
                         <!-- Single Post Share Info -->
-                        <div class="col-2 col-sm-1">
-                            <div class="single-post-share-info">
-                                <a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#" class="googleplus"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                <a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                <a href="#" class="pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
+                        <?php $this->load->view("shared/social_media"); ?>
 
                         <!-- Single Post -->
                         <div class="col-10 col-sm-11">
                             <div class="single-post">
                                 <!-- Post Thumb -->
                                 <div class="post-thumb">
-                                    <img src="<?php echo base_url(); ?>assets/img/pictures/values.jpg" alt="">
+                                    <?php 
+                                    if(!empty($main_image)){
+                                        foreach($main_image as $image){
+                                            echo '<img src="'.base_url().'assets/img/pictures/'.$image['image'].'" alt="'.$image['caption'].'"/>';
+                                        }
+                                    }
+                                    ?>
                                 </div>
                                 <!-- Post Content -->
                                 <div class="post-content">
                                     <?php 
                                     if(!empty($page_content)){
                                         //print pages content
+                                        foreach($page_content as $content){
+                                            //print '<p>'.$content.'</p>';
+                                            foreach($content as $page){
+                                                print '<p>'.$page.'</p>';
+                                            }
+                                        }
                                     }
                                     ?>
                                    
                                     <!-- carousel of patient pics --> 
                                     <script src="<?php echo base_url(); ?>assets/js/jquery/jquery-2.2.4.min.js"></script>
-                                    <?php $this->load->view("shared/image_carousel", array('images'=> $resources)); ?>
+                                    <?php $this->load->view("shared/image_carousel", array('images'=> $resources)); ?>                                    
                                 </div>
                             </div>
                         </div>

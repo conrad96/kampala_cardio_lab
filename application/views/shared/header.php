@@ -22,6 +22,6 @@
 
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/kcl.css" >
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/jquery.modal.min.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/jquery.bxslider.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/slider.min.css">
     <input type="hidden" value="<?php echo base_url(); ?>" id="getBaseURL" />
 </head>
