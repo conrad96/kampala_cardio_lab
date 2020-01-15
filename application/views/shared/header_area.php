@@ -39,7 +39,7 @@
                                         <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/Home/pages/exercise_stress_test">Excercise Stress Test</a>
                                         <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/Home/pages/holter_monitoring">Holter Monitoring</a>
                                         <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/Home/pages/sleep_apnea_treatment">Sleep Apnea Treatment</a>
-                                        <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/Home/pages/spirometry_test">Spirometry Test</a>
+                                        <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/Home/pages/spirometry_with_oximetry">Spirometry Test</a>
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
