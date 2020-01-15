@@ -127,4 +127,7 @@ class Home extends CI_Controller {
 		
 		$this->load->view("pages/index", $data);
 	}
+	function team(){
+		$this->load->view("team");
+	}
 }
