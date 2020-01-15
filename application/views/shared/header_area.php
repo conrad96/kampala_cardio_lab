@@ -33,7 +33,7 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/Home/pages/cardiac_rehabilitaion">Cardiac Rehabilitation</a>
+                                        <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/Home/pages/cardiac_rehabilitation">Cardiac Rehabilitation</a>
                                         <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/Home/pages/diagnostic_echocardiography">Diagnostic Echocardiography</a>
                                         <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/Home/pages/ecg_monitoring">ECG Monitoring</a>
                                         <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/Home/pages/exercise_stress_test">Excercise Stress Test</a>
