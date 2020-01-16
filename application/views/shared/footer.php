@@ -2,26 +2,7 @@
         <div class="footer-content section-padding-80-50">
             <div class="container">
                 <div class="row">
-                    <!-- Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-4">
-                        <div class="single-footer-widget">
-                            <h6>Our Newsletter</h6>
-                            <p>Subscribe to our mailing list to get the updates to your email inbox.</p>
-                            <form action="#" method="get">
-                                <input type="search" name="search" id="footer-search" placeholder="E-mail">
-                                <button type="submit">Subscribe</button>
-                            </form>
-                            <div class="footer-social-widegt d-flex align-items-center">
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-6">
                         <div class="single-footer-widget">
                             <h6>Twitter Feed</h6>
                             <div class="single-tweet">
@@ -31,7 +12,7 @@
                         </div>
                     </div>
                     
-                    <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-6">
                         <div class="single-footer-widget">
                             <h6>Contact Us</h6>
                             <p>+256 759 277 332, +256 392 260041 <br>kampalacardiolab@gmail.com

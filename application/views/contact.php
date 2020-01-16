@@ -34,7 +34,7 @@
     <!-- ***** Header Area End ***** -->
 
     <!-- ***** Breadcumb Area Start ***** -->
-    <div class="fancy-breadcumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/hero-1.jpg);">
+    <div id="bg-disp" class="fancy-breadcumb-area bg-img bg-overlay" style="background-image: url(<?php echo base_url(); ?>assets/img/pictures/reception_2.jpeg);">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -102,12 +102,7 @@
                                                 <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
                                             </div>
                                         </div>
-                                        <!-- Single Input Area -->
-                                        <div class="col-12">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" name="website" id="website" placeholder="Website" required>
-                                            </div>
-                                        </div>
+                                        
                                         <!-- Single Input Area -->
                                         <div class="col-12">
                                             <div class="form-group">
