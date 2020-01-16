@@ -66,7 +66,37 @@
                                 </div>
                                 <!-- Post Content -->
                                 <div class="post-content">
-                                    
+                                    <div class="row">
+                                        <div class="column">
+                                            <div class="card">
+                                                <img src="<?php echo base_url(); ?>assets/img/pictures/team/KCL-041.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="column">
+                                            <div class="card">
+                                                <img src="<?php echo base_url(); ?>assets/img/pictures/team/KCL-043.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="column">
+                                            <div class="card">
+                                                <img src="<?php echo base_url(); ?>assets/img/pictures/team/KCL-046-1.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="column">
+                                            <div class="card">
+                                                <img src="<?php echo base_url(); ?>assets/img/pictures/team/KCL-048-1.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="column">
+                                            <div class="card">
+                                                <img src="<?php echo base_url(); ?>assets/img/pictures/team/KCL-050-1.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div> 
                                 </div>
                             </div>
                         </div>
