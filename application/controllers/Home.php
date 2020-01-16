@@ -53,13 +53,13 @@ class Home extends CI_Controller {
 		}else if($page == 'ecg_monitoring'){
 			$data['page_content'] = array('content'=>array('
 			An electrocardiogram (ECG/EKG) is a simple, painless test that measures the heart’s electrical activity. Every heartbeat is triggered by an electrical signal that starts at the top of the heart and travels to the bottom. The doctor may recommend an ECG/EKG if there are symptoms or signs that may suggest a heart problem, including:<br />
-				<ul>
-					<li>Pain in the chest</li>
-					<li>Trouble breathing</li>
-					<li>Feeling tired or weak</li>
-					<li>Pounding, racing, or fluttering of your heart</li>
-					<li>A feeling that your heart is beating unevenly</li>
-					<li>Detection of unusual sounds when your doctor listens to your heart</li>
+				<ul class="list-group values-list">
+					<li class="list-group-item">Pain in the chest</li>
+					<li class="list-group-item">Trouble breathing</li>
+					<li class="list-group-item">Feeling tired or weak</li>
+					<li class="list-group-item">Pounding, racing, or fluttering of your heart</li>
+					<li class="list-group-item">A feeling that your heart is beating unevenly</li>
+					<li class="list-group-item">Detection of unusual sounds when your doctor listens to your heart</li>
 				</ul>
 			'));
 			$data['main_image'] = array(
