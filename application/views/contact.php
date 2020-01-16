@@ -39,8 +39,7 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="breadcumb-content text-center">
-                        <h2>Contact Us</h2>
-                        <p>Tell us about your story and your project.</p>
+                        <h2>Contact Us</h2>                        
                     </div>
                 </div>
             </div>
@@ -66,10 +65,10 @@
                             <h2>Contact Us</h2>
                             <p>There are many ways to contact us. You may drop us a line, give us a call or send an email, choose what suits you the most.</p>
                         </div>
-                        <p>(800) 686-6688 <br> info.deercreative@gmail.com
+                        <p>+256 759 277 332, +256 392 260041  <br> kampalacardiolab@gmail.com 
                         </p>
-                        <p>40 Baria Sreet 133/2 <br> NewYork City, US</p>
-                        <p>Open hours: 8.00-18.00 Mon-Fri <br> Sunday: Closed</p>
+                        <p>AfriCourts, 2nd Floor, <br> plot 107, Buganda Rd. Kampala</p>
+                        <p>Open hours: 8.00-18.00 Mon-Fri
                     </div>
                     <!-- Follow Us -->
                     <div class="follow-us-area">
@@ -84,7 +83,7 @@
                     <div class="contact-form-area">
                         <div class="section-heading">
                             <h2>Get In Touch With Us!</h2>
-                            <p>Fill out the form below to recieve a free and confidential.</p>
+                            <p>Fill out the form below </p>
                         </div>
                         <div class="contact-form">
                             <form action="#" method="post">
