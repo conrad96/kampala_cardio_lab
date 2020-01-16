@@ -48,24 +48,20 @@
     <!-- ***** Breadcumb Area End ***** -->
 
     <!-- ****** Single Blog Area Start ****** -->
-    <section class="single_blog_area section-padding-100">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-9">
-                    <div class="row no-gutters">
-
+    <section class="single_blog_area section-padding-100" >
+    <div class="row">
+                <div class="col-12 col-lg-12">
+                    <div class="row gutters">
                         <!-- Single Post Share Info -->
                        <?php //$this->load->view("shared/social_media");  ?>
 
                         <!-- Single Post -->
-                        <div class="col-12 col-sm-11">
+                        <div class="col-12 col-sm-12">
                             <div class="single-post">
                                 <!-- Post Thumb -->
-                                <div class="post-thumb">
-                                    
-                                </div>
+                                
                                 <!-- Post Content -->
-                                <div class="post-content">
+                                <div class="post-content">                                    
                                     <div class="row">
                                         <div class="column">
                                             <div class="card">
@@ -77,8 +73,6 @@
                                                 <img src="<?php echo base_url(); ?>assets/img/pictures/team/KCL-043.jpg" alt="">
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row">
                                         <div class="column">
                                             <div class="card">
                                                 <img src="<?php echo base_url(); ?>assets/img/pictures/team/KCL-046-1.jpg" alt="">
@@ -89,14 +83,12 @@
                                                 <img src="<?php echo base_url(); ?>assets/img/pictures/team/KCL-048-1.jpg" alt="">
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row">
                                         <div class="column">
                                             <div class="card">
                                                 <img src="<?php echo base_url(); ?>assets/img/pictures/team/KCL-050-1.jpg" alt="">
                                             </div>
                                         </div>
-                                    </div> 
+                                    </div>                                                                    
                                 </div>
                             </div>
                         </div>
@@ -106,7 +98,6 @@
                 <!-- ****** Blog Sidebar ****** -->
                 <?php //$this->load->view("shared/blog_sidebar"); ?>
             </div>
-        </div>
     </section>
     <!-- ****** Single Blog Area End ****** -->
 
