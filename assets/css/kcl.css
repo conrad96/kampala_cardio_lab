@@ -3,6 +3,7 @@
     list-style-type: disc;       
     list-style-position: inside; 
 }
+
 .dropdown-item:hover{
     background-color: lightgrey;
 }
@@ -81,5 +82,5 @@
     background-size: cover;
   }
   .team-img-orig{
-    
+
   }

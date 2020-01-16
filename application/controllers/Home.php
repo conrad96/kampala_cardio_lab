@@ -35,10 +35,10 @@ class Home extends CI_Controller {
 			}
 		}else if($page == 'diagnostic_echocardiography'){
 			$data['page_content'] = array('content'=>array('Echocardiography is a test that uses sound waves to allow the doctor monitor how the heart and its valves are functioning. It helps the doctor spot the following:<br />
-			<ul class="services-list">
-				<li>Blood clots in the heart</li>
-				<li>Fluid in the sac around the heart</li>
-				<li>Problems with the aorta (the main artery connected to the heart)</li>
+			<ul class="list-group values-list">
+				<li class="list-group-item">Blood clots in the heart</li>
+				<li class="list-group-item">Fluid in the sac around the heart</li>
+				<li class="list-group-item">Problems with the aorta (the main artery connected to the heart)</li>
 			</ul><br />
 		An echocardiogram is key in determining the health of the heart muscle, especially after a heart attack. Taking an echocardiogram is painless.'));
 			$data['main_image'] = array(
