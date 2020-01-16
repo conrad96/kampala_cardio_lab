@@ -8,6 +8,11 @@ class Home extends CI_Controller {
     }
     function about(){
 		$data['page'] = 'About';
+		$data['resources'] = array(
+			array('image'=> 'KCL-076-1024x684.jpg'),
+			array('image'=> 'KCL-086-1024x684.jpg'),
+			array('image'=> 'KCL-019-1024x683.jpg')
+		);
 		$this->load->view("about", $data);
 	}
 	function services(){

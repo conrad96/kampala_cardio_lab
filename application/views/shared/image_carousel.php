@@ -11,9 +11,8 @@
         print '</ul>';
         //initialise bxslider script   
     }
-    ?>
-    <script src="<?php echo base_url(); ?>assets/js/slider.js"></script>
+    ?>    
     <script>
-        $(".slider").slider();
+        
     </script>
 </div>

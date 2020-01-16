@@ -59,3 +59,7 @@ $(document).on('mouseleave', '#bg-disp', function(event){
     //change to overlay
     $("#bg-disp").removeClass("bg-overlay");
 });
+
+$(document).on('ready', function(){
+    $(".slider").slider();
+});

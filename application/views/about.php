@@ -83,10 +83,8 @@
                                         <li class="list-group-item"><span class="about-values">S</span>tewardship of the God-given knowledge and skill</li>
                                         <li class="list-group-item"><span class="about-values">E</span>xcellence in service</li>                                        
                                     </ul>
-                                    <p></p>
-                                    <!-- carousel of patient pics --> 
-                                    <script src="<?php echo base_url(); ?>assets/js/jquery/jquery-2.2.4.min.js"></script>
-                                    <?php $this->load->view("shared/image_carousel"); ?>
+                                    <p></p>                                    
+                                    <?php $this->load->view("shared/image_carousel", array("images"=> $resources)); ?>
                                 </div>
                             </div>
                         </div>
