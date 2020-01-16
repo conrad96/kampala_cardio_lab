@@ -72,3 +72,14 @@
       margin-bottom: 20px;
     }
   }
+
+  .team-role-text{
+    color: white;    
+  }
+  .team-img{    
+    background-position: center center;
+    background-size: cover;
+  }
+  .team-img-orig{
+    
+  }

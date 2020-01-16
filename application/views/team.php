@@ -65,27 +65,38 @@
                                     <div class="row">
                                         <div class="column">
                                             <div class="card">
-                                                <img src="<?php echo base_url(); ?>assets/img/pictures/team/KCL-041.jpg" alt="">
+                                                <!-- <div class="team-img bg-overlay" style="background-image: url(<?php echo base_url(); ?>assets/img/pictures/team/KCL-041.jpg);">                                                     
+                                                    <div class="row align-items-center">
+                                                        <div class="col-12">
+                                                            <div class="breadcumb-content text-center">
+                                                                <h6 class="team-role-text">Moses Kyobe, MbchB , FACC</h6>                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>                                                     
+                                                </div> -->
+			        				        	<div class="team-img-orig">
+                                                    <img src="<?php echo base_url(); ?>assets/img/pictures/team/KCL-041.jpg" alt="" class="img-team">
+                                                </div>				        				                                                        
                                             </div>
                                         </div>
                                         <div class="column">
                                             <div class="card">
-                                                <img src="<?php echo base_url(); ?>assets/img/pictures/team/KCL-043.jpg" alt="">
+                                                <img src="<?php echo base_url(); ?>assets/img/pictures/team/KCL-043.jpg" alt="" class="img-team">
                                             </div>
                                         </div>
                                         <div class="column">
                                             <div class="card">
-                                                <img src="<?php echo base_url(); ?>assets/img/pictures/team/KCL-046-1.jpg" alt="">
+                                                <img src="<?php echo base_url(); ?>assets/img/pictures/team/KCL-046-1.jpg" alt="" class="img-team">
                                             </div>
                                         </div>
                                         <div class="column">
                                             <div class="card">
-                                                <img src="<?php echo base_url(); ?>assets/img/pictures/team/KCL-048-1.jpg" alt="">
+                                                <img src="<?php echo base_url(); ?>assets/img/pictures/team/KCL-048-1.jpg" alt="" class="img-team">
                                             </div>
                                         </div>
                                         <div class="column">
                                             <div class="card">
-                                                <img src="<?php echo base_url(); ?>assets/img/pictures/team/KCL-050-1.jpg" alt="">
+                                                <img src="<?php echo base_url(); ?>assets/img/pictures/team/KCL-050-1.jpg" alt="" class="img-team">
                                             </div>
                                         </div>
                                     </div>                                                                    

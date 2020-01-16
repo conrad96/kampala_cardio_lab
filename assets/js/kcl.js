@@ -49,3 +49,13 @@ $(document).on('mouseleave', '#bg-disp', function(event){
     //change to overlay
     $("#bg-disp").removeClass("bg-overlay");
 });
+//card display overlay
+$(document).on('mouseenter', '.team-img-orig', function(event){
+    //change to overlay
+    
+});
+
+$(document).on('mouseleave', '#bg-disp', function(event){
+    //change to overlay
+    $("#bg-disp").removeClass("bg-overlay");
+});
