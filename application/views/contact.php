@@ -88,7 +88,7 @@
                             <p>Fill out the form below </p>
                         </div>
                         <div class="contact-form">
-                            <form action="#" method="post">
+                            <form id="contactForm">
                                 <!-- Message Input Area Start -->
                                 <div class="contact_input_area">
                                     <div class="row">
@@ -112,8 +112,12 @@
                                             </div>
                                         </div>
                                         <!-- Single Input Area -->
-                                        <div class="col-12">
+                                        <div class="col-8">
                                             <button type="submit" class="btn fancy-btn fancy-dark bg-transparent">Send Message</button>
+                                        </div>
+                                        <div class="col-4" id="msg-stat">
+                                            <!-- loader -->
+                                            <img src="<?php echo base_url(); ?>assets/img/loading.gif" alt="" class="loading-gif" style="display: none;">
                                         </div>
                                     </div>
                                 </div>

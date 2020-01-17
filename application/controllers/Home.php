@@ -135,4 +135,25 @@ class Home extends CI_Controller {
 	function team(){
 		$this->load->view("team");
 	}
+	function contact_kcl(){
+		if(!empty($_POST)){
+			$name = $_POST['name'];
+			$email = $_POST['email'];
+			$message = $_POST['message'];
+			//send email
+			$subject = 'INQUIRY';
+
+			$this->email->from($email, $name);
+			$this->email->to(DEFAULT_EMAIL);
+			$this->email->subject($subject);
+			$this->email->message($message);
+			//send
+			$send_email = $this->email->send();
+			if($send_email){
+				print '<i class="alert alert-success">Email sent successfully</i>';
+			}else{
+				print '<i class="alert alert-danger">An Error occured!. Email not sent.</i>';
+			}
+		}
+	}
 }

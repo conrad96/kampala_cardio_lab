@@ -63,3 +63,26 @@ $(document).on('mouseleave', '#bg-disp', function(event){
 $(document).on('ready', function(){
     $(".slider").slider();
 });
+
+//contact form
+$(document).on('submit', '#contactForm', function(e){
+    e.preventDefault();
+    //send email to DEFAULT_EMAIL address
+    var formData = $(this).serialize();
+    console.log(formData);
+    $.ajax({
+        type: "POST",
+        url: getBaseURL + 'index.php/Home/contact_kcl',
+        data: formData,
+        beforeSend: function(){
+            //show loader
+            $(".loading-gif").show();
+        },
+        success: function(data){
+            //show msg
+            $(".loading-gif").hide();
+            
+            $("#msg-stat").html(data);
+        }        
+    });
+});
