@@ -84,3 +84,6 @@
   .slideshow{
     border-radius: 15px;
   }
+#google-map-canvas{
+  width: 450px;
+}
