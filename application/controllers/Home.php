@@ -154,6 +154,8 @@ class Home extends CI_Controller {
 			}else{
 				print '<i class="alert alert-danger">An Error occured!. Email not sent.</i>';
 			}
+		}else{
+			print '<i class="alert alert-warning">An Error occured. please try again</i>';
 		}
 	}
 }

@@ -69,7 +69,8 @@ $(document).on('submit', '#contactForm', function(e){
     e.preventDefault();
     //send email to DEFAULT_EMAIL address
     var formData = $(this).serialize();
-    console.log(formData);
+    var getBaseURL = $("#getBaseURL").val();
+    
     $.ajax({
         type: "POST",
         url: getBaseURL + 'index.php/Home/contact_kcl',
@@ -81,7 +82,7 @@ $(document).on('submit', '#contactForm', function(e){
         success: function(data){
             //show msg
             $(".loading-gif").hide();
-            
+
             $("#msg-stat").html(data);
         }        
     });
