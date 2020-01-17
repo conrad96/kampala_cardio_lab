@@ -16,21 +16,25 @@ $(document).on('click', '.service-card', function(event){
 
 $(document).on('submit', '#appointmentForm', function(event){
     event.preventDefault();
-    //submit data by ajax
+    //submit data by ajax    
+    //send email to DEFAULT_EMAIL address
+    var formData = $(this).serialize();
     var getBaseURL = $("#getBaseURL").val();
-    var data = $(this).serialize();
+    
     $.ajax({
         type: "POST",
         url: getBaseURL + 'index.php/Home/make_appointment',
+        data: formData,
         beforeSend: function(){
-            $("#status").html("<img src='"+getBaseURL+"assets/img/loading.gif' style='width: 65px; height: 65px;' ");
-        },
-        error: function(xhr, error, status){
-            console.log(xhr);
+            //show loader
+            $(".loading-gif").show();
         },
         success: function(data){
-            $("#status").html(data);
-        }
+            //show msg
+            $(".loading-gif").hide();
+
+            $("#msg-stat").html(data);
+        }        
     });
 });
 
@@ -70,7 +74,7 @@ $(document).on('submit', '#contactForm', function(e){
     //send email to DEFAULT_EMAIL address
     var formData = $(this).serialize();
     var getBaseURL = $("#getBaseURL").val();
-    
+
     $.ajax({
         type: "POST",
         url: getBaseURL + 'index.php/Home/contact_kcl',

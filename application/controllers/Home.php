@@ -26,7 +26,29 @@ class Home extends CI_Controller {
 	}	
 	function make_appointment(){
 		//send email to cardiolab gmail account
-		
+		if(!empty($_POST)){
+			$name = $_POST['name'];
+			$email = $_POST['email'];
+			$message = $_POST['message'];
+			$date = $_POST['date'];
+			//
+			//send email
+			$subject = 'MEDICAL APPOINTMENT';
+			$body = "Hello, I would like to schedule an appointment on ".$date." Thank you.  Additional Notes: ".$message;
+			$this->email->from($email, $name);
+			$this->email->to(DEFAULT_EMAIL);
+			$this->email->subject($subject);
+			$this->email->message($body);
+			//send
+			$send_email = $this->email->send();
+			if($send_email){
+				print '<i class="alert alert-success">Appointment scheduled for '.$date.' is success, please come in time.</i>';
+			}else{
+				print '<i class="alert alert-danger">An Error occured!. Appointment not sent.</i>';
+			}
+		}else{
+			print '<i class="alert alert-danger">An Error occured!. Email not sent.</i>';
+		}
 	}
 	function pages($page = ''){		
 		if($page == 'cardiac_rehabilitation'){
