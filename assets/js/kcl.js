@@ -64,8 +64,10 @@ $(document).on('mouseleave', '#bg-disp', function(event){
     $("#bg-disp").removeClass("bg-overlay");
 });
 
-$(document).on('ready', function(){
-    $(".slider").slider();
+$(document).ready(function(){
+    //$("#img-slideshow").load(function(){
+        $(".slider").slider();
+    //});
 });
 
 //contact form

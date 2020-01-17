@@ -1,5 +1,5 @@
 <!-- class="slider" -->
-<div class="slideshow">
+<div class="slideshow" id="img-slideshow">
     <?php 
     if(!empty($images)){
         print '<ul class="slider"> ';
@@ -11,8 +11,5 @@
         print '</ul>';
         //initialise bxslider script   
     }
-    ?>    
-    <script>
-        
-    </script>
+    ?>        
 </div>
