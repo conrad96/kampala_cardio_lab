@@ -180,4 +180,7 @@ class Home extends CI_Controller {
 			print '<i class="alert alert-warning">An Error occured. please try again</i>';
 		}
 	}
+	function partnerships(){
+		$this->load->view("partnerships");
+	}
 }
