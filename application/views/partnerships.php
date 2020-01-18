@@ -34,12 +34,12 @@
     <!-- ***** Header Area End ***** -->
 
     <!-- ***** Breadcumb Area Start ***** -->
-    <div id="bg-disp" class="fancy-breadcumb-area bg-img bg-overlay" style="background-image: url(<?php echo base_url(); ?>assets/img/pictures/KCL-096-768x1150.jpg);">
+    <div class="fancy-breadcumb-area bg-img bg-overlay" style="background-image: url(<?php echo base_url(); ?>assets/img/pictures/KCL-017-1024x684.jpg);">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="breadcumb-content text-center">
-                        <h2>Our Trusted Partnerships</h2>                                                
+                        <h2>Our Partnerships</h2>                                                
                     </div>
                 </div>
             </div>
