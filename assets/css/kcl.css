@@ -73,13 +73,14 @@
       margin-bottom: 20px;
     }
   }
-
+/* End */
   .team-role-text{
     color: white;    
   }
   .team-img{    
     background-position: center center;
     background-size: cover;
+    width: 20%;
   }
   .slideshow{
     border-radius: 15px;
@@ -90,4 +91,14 @@
 .loading-gif{
   width: 35px;
   height: 35px;
+}
+.team-title{  
+  font-style: italic;
+  font-family: Snell Roundhand, cursive;
+}
+.job-title{  
+  font-size: 15px;
+  font-family: Snell Roundhand, cursive;
+  font-variant: normal;
+  font-stretch: expanded;
 }
