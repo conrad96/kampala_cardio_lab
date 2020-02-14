@@ -104,10 +104,10 @@ li {
 
 #preloader {
     overflow: hidden;
-    background: #7450fe;
-    background: -webkit-linear-gradient(to right, #7450fe, #21d397);
-    background: -webkit-linear-gradient(left, #7450fe, #21d397);
-    background: linear-gradient(to right, #7450fe, #21d397);
+    background: #fb2a2a;
+    background: -webkit-linear-gradient(to right, #fb2a2a,  #ffc7c7 );
+    background: -webkit-linear-gradient(left, #fb2a2a,  #ffc7c7 );
+    background: linear-gradient(to right, #fb2a2a,  #ffc7c7 );
     height: 100%;
     left: 0;
     position: fixed;
@@ -245,7 +245,7 @@ li {
 }
 
 #scrollUp:hover {
-    background-color: #7450fe;
+    background-color: #fb2a2a;
 }
 
 .section-heading {
@@ -309,14 +309,14 @@ li {
     padding: 0 15px;
     width: 160px;
     height: 46px;
-    border-left: 2px solid #7450fe;
-    border-right: 2px solid #21d397;
+    border-left: 2px solid #fb2a2a;
+    border-right: 2px solid  #ffc7c7 ;
     box-sizing: border-box;
     background-position: 0 0, 0 100%;
     background-repeat: no-repeat;
     background-size: 100% 2px;
-    background-image: -webkit-linear-gradient(left, #7450fe 0%, #21d397 100%), -webkit-linear-gradient(left, #7450fe 0%, #21d397 100%);
-    background-image: linear-gradient(to right, #7450fe 0%, #21d397 100%), linear-gradient(to right, #7450fe 0%, #21d397 100%);
+    background-image: -webkit-linear-gradient(left, #fb2a2a 0%,  #ffc7c7  100%), -webkit-linear-gradient(left, #fb2a2a 0%,  #ffc7c7  100%);
+    background-image: linear-gradient(to right, #fb2a2a 0%,  #ffc7c7  100%), linear-gradient(to right, #fb2a2a 0%,  #ffc7c7  100%);
     -webkit-transition-duration: 1000ms;
     transition-duration: 1000ms;
     position: relative;
@@ -327,10 +327,10 @@ li {
     color: #fff;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
-    background: #7450fe;
-    background: -webkit-linear-gradient(to right, #7450fe, #21d397);
-    background: -webkit-linear-gradient(left, #7450fe, #21d397);
-    background: linear-gradient(to right, #7450fe, #21d397);
+    background: #fb2a2a;
+    background: -webkit-linear-gradient(to right, #fb2a2a,  #ffc7c7 );
+    background: -webkit-linear-gradient(left, #fb2a2a,  #ffc7c7 );
+    background: linear-gradient(to right, #fb2a2a,  #ffc7c7 );
     content: '';
     position: absolute;
     width: 100%;
@@ -641,10 +641,10 @@ li {
     display: block;
     position: relative;
     height: 100%;
-    background: #7450fe;
-    background: -webkit-linear-gradient(to right, #7450fe, #21d397);
-    background: -webkit-linear-gradient(left, #7450fe, #21d397);
-    background: linear-gradient(to right, #7450fe, #21d397);
+    background: #fb2a2a;
+    background: -webkit-linear-gradient(to right, #fb2a2a,  #ffc7c7 );
+    background: -webkit-linear-gradient(left, #fb2a2a,  #ffc7c7 );
+    background: linear-gradient(to right, #fb2a2a,  #ffc7c7 );
     z-index: 1;
 }
 
@@ -690,10 +690,10 @@ li {
 
 .single-service-area i {
     font-size: 40px;
-    background: #7450fe;
-    background: -webkit-linear-gradient(to right, #7450fe, #21d397);
-    background: -webkit-linear-gradient(left, #7450fe, #21d397);
-    background: linear-gradient(to right, #7450fe, #21d397);
+    background: #fb2a2a;
+    background: -webkit-linear-gradient(to right, #fb2a2a,  #ffc7c7 );
+    background: -webkit-linear-gradient(left, #fb2a2a,  #ffc7c7 );
+    background: linear-gradient(to right, #fb2a2a,  #ffc7c7 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-transition-duration: 500ms;
@@ -744,10 +744,10 @@ li {
 .testimonilas-content span.quote {
     font-size: 120px;
     line-height: 1;
-    background: #7450fe;
-    background: -webkit-linear-gradient(to right, #7450fe, #21d397);
-    background: -webkit-linear-gradient(left, #7450fe, #21d397);
-    background: linear-gradient(to right, #7450fe, #21d397);
+    background: #fb2a2a;
+    background: -webkit-linear-gradient(to right, #fb2a2a,  #ffc7c7 );
+    background: -webkit-linear-gradient(left, #fb2a2a,  #ffc7c7 );
+    background: linear-gradient(to right, #fb2a2a,  #ffc7c7 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -837,7 +837,7 @@ li {
 }
 
 .blog-content > a:hover {
-    color: #7450fe;
+    color: #fb2a2a;
 }
 
 /* Footer Area CSS */
@@ -885,10 +885,10 @@ li {
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
-    background: #7450fe;
-    background: -webkit-linear-gradient(to right, #7450fe, #21d397);
-    background: -webkit-linear-gradient(left, #7450fe, #21d397);
-    background: linear-gradient(to right, #7450fe, #21d397);
+    background: #fb2a2a;
+    background: -webkit-linear-gradient(to right, #fb2a2a,  #ffc7c7 );
+    background: -webkit-linear-gradient(left, #fb2a2a,  #ffc7c7 );
+    background: linear-gradient(to right, #fb2a2a,  #ffc7c7 );
 }
 
 .footer-social-widegt {
@@ -904,7 +904,7 @@ li {
 }
 
 .footer-social-widegt > a:hover {
-    color: #7450fe;
+    color: #fb2a2a;
 }
 
 .single-tweet a {
@@ -1197,6 +1197,6 @@ li {
 }
 
 .tags-widget > a:hover {
-    background-color: #7450fe;
+    background-color: #fb2a2a;
     color: #fff;
 }

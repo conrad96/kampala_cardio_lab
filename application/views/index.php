@@ -50,7 +50,7 @@
                             <div class="col-12 col-md-4">
                                 <div class="single-top-feature">
                                     <h5><i class="fa fa-clock-o" aria-hidden="true"></i> Expertise</h5>                                    
-                                    <p>We pride ourselves in delivering the best cardiography in the country with State of the Art Equipment
+                                    <p>We pride ourselves in delivering some of the best cardiovascular care in the country.
                                 </div>
                             </div>
                             <div class="col-12 col-md-4">
@@ -62,7 +62,7 @@
                             <div class="col-12 col-md-4">
                                 <div class="single-top-feature">
                                     <h5><i class="fa fa-diamond" aria-hidden="true"></i> Quality Treatment</h5>
-                                    <p>Experienced team of doctors and nurses to treat you
+                                    <p>Experienced medical team.
                                 </div>
                             </div>
                         </div>
