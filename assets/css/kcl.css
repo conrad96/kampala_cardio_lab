@@ -120,4 +120,12 @@
   width: 30vh;
 }
 
+#top-kcl-header {
+  background-color: white;  
+}
+
+.nav-link{
+  color: black;
+}
+
 /*end partnerships cards*/
