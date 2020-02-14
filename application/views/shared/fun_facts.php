@@ -102,6 +102,46 @@
                                 <h6>Fun facts- <span>Healthline.com</span></h6>
                             </div>
                         </div>
+                        <!-- -->
+                        <div class="single-testimonial d-md-flex align-items-center">
+                            <!-- Testimonial Thumb -->
+                            <div class="testimonial-thumbnail">
+                            <img src="<?php  echo base_url(); ?>assets/img/pictures/human_heart.jpg" class="facts-imgs" alt="">
+                            </div>
+                            <!-- Content -->
+                            <div class="testimonilas-content">
+                                <span class="playfair-font quote">“</span>
+                                <h5>The heart of an average man beats approximately 70 times a minute, whereas the average woman has a heart rate of 78 beats per minute. One person’s system of blood vessels is over 60,000 miles long, which is long enough to go around the world twice</h5>
+                                <h6>Fun facts- <span>Healthline.com</span></h6>
+                            </div>
+                        </div>
+                        <!-- -->
+                        <div class="single-testimonial d-md-flex align-items-center">
+                            <!-- Testimonial Thumb -->
+                            <div class="testimonial-thumbnail">
+                            <img src="<?php  echo base_url(); ?>assets/img/pictures/faucet.png" class="facts-imgs" alt="">
+                            </div>
+                            <!-- Content -->
+                            <div class="testimonilas-content">
+                                <span class="playfair-font quote">“</span>
+                                <h5>A kitchen faucet would have to be turned on all the way for at least 45 years to equal the amount of blood pumped by the heart in an average lifetime.</h5>
+                                <h6>Fun facts- <span>Healthline.com</span></h6>
+                            </div>
+                        </div>
+                        <!-- quotes from the old site -->
+
+                        <div class="single-testimonial d-md-flex align-items-center">
+                            <!-- Testimonial Thumb -->
+                            <div class="testimonial-thumbnail">
+                            <img src="<?php  echo base_url(); ?>assets/img/pictures/flag_zimbabwe.png" class="facts-imgs" alt="">
+                            </div>
+                            <!-- Content -->
+                            <div class="testimonilas-content">
+                                <span class="playfair-font quote">“</span>
+                                <h5>A merry heart doeth good like a medicine, but a broken spirit drieth the bones. -Zimbabwe</h5>
+                                <h6>Old saying- <span>Zimbabwe</span></h6>
+                            </div>
+                        </div>                        
                     </div>
                 </div>
             </div>
