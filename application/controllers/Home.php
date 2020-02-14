@@ -29,6 +29,7 @@ class Home extends CI_Controller {
 		if(!empty($_POST)){
 			$name = $_POST['name'];
 			$email = $_POST['email'];
+			$phone = $_POST['mobile'];
 			$message = $_POST['message'];
 			$date = $_POST['date'];
 			//

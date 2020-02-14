@@ -20,6 +20,11 @@
                             <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
                         </div>
                     </div> 
+                    <div class="col-12">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="mobile" id="mobile" placeholder="Phone number" required>
+                        </div>
+                    </div> 
                     <!-- Single Input Area -->
                     <div class="col-12">
                         <div class="form-group">
