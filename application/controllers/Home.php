@@ -32,7 +32,15 @@ class Home extends CI_Controller {
 			$phone = $_POST['mobile'];
 			$message = $_POST['message'];
 			$date = $_POST['date'];
-			//
+			//save appintment
+			$save = $this->_appointments->save(array(
+				"names"=> $name,
+				"email"=> $email,
+				"mobile"=> $phone,
+				"appointment_date"=> $date,
+				"notes"=> $message
+			));
+			
 			//send email
 			$subject = 'MEDICAL APPOINTMENT';
 			$body = "Hello, I would like to schedule an appointment on ".$date." Thank you.  Additional Notes: ".$message;
