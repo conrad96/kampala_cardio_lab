@@ -41,9 +41,13 @@
                     <div class="col-8">
                         <button type="submit" id="makeApointment" class="btn fancy-btn fancy-dark bg-transparent">Schedule</button>
                         <div id="status"></div>
-                    </div>
-                    <div class="col-4" id="msg-stat">
-                        <img src="<?php echo base_url(); ?>assets/img/loading.gif" alt="" class="loading-gif" style="display: none;">
+                    </div>                   
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="msg-stat">
+                            <img src="<?php echo base_url(); ?>assets/img/loading.gif" alt="" class="loading-gif" style="display: none;">
+                        </div>
                     </div>
                 </div>
             </div>
