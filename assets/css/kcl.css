@@ -116,8 +116,8 @@
 
 .kcl-logo{
   /* height: 100px; */
-  height: 12vh;
-  width: 30vh;
+  height: 10vh;
+  width: 30vh;  
 }
 
 #top-kcl-header {
@@ -128,7 +128,8 @@
   color: black;
 }
 
-.img-team{
-  
+.header_area{
+  height: 10vh;
 }
+
 /*end partnerships cards*/
