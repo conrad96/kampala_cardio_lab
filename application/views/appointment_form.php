@@ -45,7 +45,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div id="msg-stat">
+                        <div id="msg-stat" style="padding-top: 10px; padding-bottom: 10px;">
                             <img src="<?php echo base_url(); ?>assets/img/loading.gif" alt="" class="loading-gif" style="display: none;">
                         </div>
                     </div>
