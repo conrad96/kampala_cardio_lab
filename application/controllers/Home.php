@@ -51,12 +51,12 @@ class Home extends CI_Controller {
 			//send
 			$send_email = $this->email->send();
 			if($send_email){
-				print '<i class="alert alert-success">Appointment scheduled for '.$date.' is success, please come in time.</i>';
+				print '<span style="font-size: 11px; whitespace: nowrap;"><i class="alert alert-success">Appointment scheduled successfully for '.$date.' please come in time.</i></span>';
 			}else{
-				print '<i class="alert alert-danger">An Error occured!. Appointment not sent.</i>';
+				print '<span style="font-size: 11px; whitespace: nowrap;"><i class="alert alert-danger">An Error occured!. Appointment not sent.</i></span>';
 			}
 		}else{
-			print '<i class="alert alert-danger">An Error occured!. Email not sent.</i>';
+			print '<span style="font-size: 11px; whitespace: nowrap;"><i class="alert alert-danger">An Error occured!. Email not sent.</i></span>';
 		}
 	}
 	function pages($page = ''){		
