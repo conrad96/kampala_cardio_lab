@@ -43,8 +43,8 @@
   /* Float four columns side by side */
   .column {
     float: left;
-    width: 20%;
-    padding: 0 10px;
+    width: 25%;
+    padding: 0 20px;
   }
   
   /* Remove extra left and right margins, due to padding in columns */
@@ -131,5 +131,8 @@
 .header_area{
   height: 10vh;
 }
-
+/* .team-section {
+  margin-left: 20em;
+  vertical-align: middle;
+} */
 /*end partnerships cards*/
