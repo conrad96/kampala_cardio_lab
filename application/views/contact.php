@@ -115,10 +115,13 @@
                                         <div class="col-8">
                                             <button type="submit" class="btn fancy-btn fancy-dark bg-transparent">Send Message</button>
                                         </div>
-                                        <div class="col-4" id="msg-stat">
+                                        
+                                    </div>
+                                    <div class="row">                                        
+                                        <div class="col-md-12" id="msg-stat">
                                             <!-- loader -->
                                             <img src="<?php echo base_url(); ?>assets/img/loading.gif" alt="" class="loading-gif" style="display: none;">
-                                        </div>
+                                        </div>                                        
                                     </div>
                                 </div>
                             </form>
