@@ -95,7 +95,12 @@
                                         <!-- Single Input Area -->
                                         <div class="col-12">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
+                                                <input type="text" class="form-control" name="names" id="name" placeholder="Name" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="contact" id="contact" placeholder="Contact" required>
                                             </div>
                                         </div>
                                         <!-- Single Input Area -->
@@ -116,6 +121,11 @@
                                             <button type="submit" class="btn fancy-btn fancy-dark bg-transparent">Send Message</button>
                                         </div>
                                         
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            &nbsp;
+                                        </div>
                                     </div>
                                     <div class="row">                                        
                                         <div class="col-md-12" id="msg-stat">

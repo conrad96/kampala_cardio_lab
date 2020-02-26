@@ -168,9 +168,19 @@ class Home extends CI_Controller {
 	}
 	function contact_kcl(){
 		if(!empty($_POST)){
-			$name = $_POST['name'];
+			$name = $_POST['names'];
 			$email = $_POST['email'];
+			$contact = $_POST['contact'];
 			$message = $_POST['message'];
+
+			//save 
+			$save = $this->_appointments->contact(array(
+				"names"=> $name,
+				"email"=> $email,
+				"contact"=> $contact,				
+				"message"=> $message
+			));
+
 			//send email
 			$subject = 'INQUIRY';
 

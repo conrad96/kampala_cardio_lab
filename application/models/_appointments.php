@@ -12,4 +12,14 @@ class _appointments extends CI_Model{
             "notes"=> $data['notes']
         ));
     }
+
+    function contact($data = array()){
+
+        return $this->db->insert("contact", array(
+            "names"=> $data['names'],
+            "email"=> $data['email'],
+            "contact"=> $data['contact'],
+            "messages"=> $data['message']            
+        ));
+    }
 }

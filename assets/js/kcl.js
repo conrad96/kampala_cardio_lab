@@ -90,6 +90,9 @@ $(document).on('submit', '#contactForm', function(e){
             $(".loading-gif").hide();
 
             $("#msg-stat").html(data);
-        }        
+        }, 
+        error: function(xhr, status, error)        {
+            console.log(xhr.responseText);
+        }
     });
 });
