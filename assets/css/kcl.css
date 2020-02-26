@@ -5,7 +5,7 @@
 }
 
 .dropdown-item:hover{
-    background-color: lightgrey;
+    background-color:  #fc7d7c ;
 }
 .services-icon{
     border-radius: 15px;
@@ -14,7 +14,7 @@
     list-style-type: circle;
 }
 .values-list > li:hover {
-    background-color: lightgrey;
+    background-color:  #fc7d7c;
 }
 .slideshow-img{
     width: 1024px;
