@@ -76,8 +76,7 @@
                     <div class="follow-us-area">
                         <h2>Follow Us:</h2>
                        <?php //$this->load->view("shared/social_media"); ?>
-                        <a href="https://facebook.com" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="https://twitter.com" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>                        
+                        <a href="https://www.facebook.com/KampalaCardioLab/" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                                              
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
