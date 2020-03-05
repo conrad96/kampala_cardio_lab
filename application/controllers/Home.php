@@ -43,7 +43,7 @@ class Home extends CI_Controller {
 			
 			//send email
 			$subject = 'MEDICAL APPOINTMENT';
-			$body = "Hello, I would like to schedule an appointment on ".$date." Thank you.  Additional Notes: ".$message;
+			$body = "Hello, I would like to schedule an appointment on ".$date." Thank you.  Additional Notes: ".$message."  Contact Details: ".$phone."/".$email;
 			$this->email->from($email, $name);
 			$this->email->to(DEFAULT_EMAIL);
 			$this->email->subject($subject);
