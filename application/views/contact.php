@@ -59,6 +59,20 @@
                 </div>
             </div>
 
+            <div class="row" style="padding-top: 35px;">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <h2>Working Hours</h2>
+                        <span class="working-hours-section">
+                            <p style="font-weight: bold; font-size: 18px;">Monday - Friday: 9am - 6pm</p>
+                            <p style="font-weight: bold; font-size: 18px;">Saturday: 8am - 2pm</p>
+                            <p style="font-weight: bold; font-size: 18px;">Public Holidays: 8am - 2pm</p>
+                            <p style="font-weight: bold; font-size: 18px;">Sunday: Closed</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
             <div class="row">
                 <div class="col-12 col-md-6">
                     <!-- Contact Details -->
@@ -67,10 +81,10 @@
                             <h2>Contact Us</h2>
                             <p>There are many ways to contact us. You may drop us a line, give us a call or send an email, choose what suits you the most.</p>
                         </div>
-                        <p>+256 759 277 332, +256 392 260041  <br> kampalacardiolab@gmail.com 
+                        <p style="font-weight: bold; font-size: 18px;">+256 759 277 332, +256 392 260041  <br> kampalacardiolab@gmail.com 
                         </p>
-                        <p>AfriCourts, 2nd Floor, <br> plot 107, Buganda Rd. Kampala</p>
-                        <p>Open hours: 8.00-18.00 Mon-Fri
+                        <p style="font-weight: bold; font-size: 18px;">AfriCourts, 2nd Floor, <br> Plot 107, Buganda Rd. Kampala</p>
+                        <p style="font-weight: bold; font-size: 18px;">Open hours: 8.00-18.00 Mon-Fri
                     </div>
                     <!-- Follow Us -->
                     <div class="follow-us-area">

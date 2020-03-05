@@ -36,7 +36,7 @@
                             <h6>Contact Us</h6>
                             <p>+256 759 277 332, +256 392 260041 <br>kampalacardiolab@gmail.com
                             </p>
-                            <p>AfriCourts, 2nd Floor, <br>plot 107, Buganda Rd. Kampala</p>                             
+                            <p>AfriCourts, 2nd Floor, <br>Plot 107, Buganda Rd. Kampala</p>                             
                             <p>Open hours: 8.00-18.00 Mon-Fri</p>
                         </div>
                     </div>

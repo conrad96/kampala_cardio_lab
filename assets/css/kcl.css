@@ -131,6 +131,10 @@
 .header_area{
   height: 10vh;
 }
+.working-hours-section {
+  font-size: 20px;
+  font-weight: bold;
+}
 /* .team-section {
   margin-left: 20em;
   vertical-align: middle;
