@@ -96,3 +96,9 @@ $(document).on('submit', '#contactForm', function(e){
         }
     });
 });
+
+$(document).on('click', '#read-more-btn', function(event){
+    var getBaseURL = $("#getBaseURL").val();
+    
+    window.location.href = getBaseURL + 'index.php/Home/about';
+});

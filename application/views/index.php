@@ -82,7 +82,7 @@
                         <h2>Kampala CardioLab (KCL) </h2>
                             <p>We specialize in the treatment and management of cardiovascular diseases while emphasizing preventive, and overall health and wellness of patients with state-of-the-art equipment and well- trained staff to optimize the care of each patient.</p> 
                             <p>Because many factors affect heart health like exercise, diet, environment and heredity, we strive to provide the most comprehensive cardiovascular care possible in order to optimize the care and well- being of each patient.</p>
-                        <a href="<?php echo base_url(); ?>index.php/Home/about" class="btn fancy-btn fancy-dark">Read More</a>
+                        <a href="<?php echo base_url(); ?>index.php/Home/about" id="read-more-btn" class="btn fancy-btn fancy-dark">Read More</a>
                     </div>
                 </div>
 
@@ -99,7 +99,7 @@
     <!-- ***** Skills Area Start ***** -->
     <section class="fancy-skills-area section-padding-200">
         <!-- Side Thumb -->
-        <div class="skills-side-thumb">
+        <div style="margin-left: 25px;" class="skills-side-thumb">
             <img src="<?php  echo base_url(); ?>assets/img/pictures/reception.jpeg" alt="">
         </div>
         <!-- Skills Content -->
