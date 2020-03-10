@@ -51,7 +51,7 @@ class Home extends CI_Controller {
 			//send
 			$send_email = $this->email->send();
 			if($send_email){
-				print '<span style="font-size: 11px; whitespace: nowrap;"><i class="alert alert-success">Appointment scheduled successfully for '.$date.' please come in time.</i></span>';
+				print '<span style="font-size: 11px; whitespace: nowrap;"><i class="alert alert-success">Thank you for scheduling an appointment with us. We will get back to you as soon as possible. Have a great day</i></span>';
 			}else{
 				print '<span style="font-size: 11px; whitespace: nowrap;"><i class="alert alert-danger">An Error occured!. Appointment not sent.</i></span>';
 			}
@@ -191,7 +191,7 @@ class Home extends CI_Controller {
 			//send
 			$send_email = $this->email->send();
 			if($send_email){
-				print '<i class="alert alert-success">Email sent successfully</i>';
+				print '<i class="alert alert-success">Thank you . We will get back to you as soon as possible. Have a great day</i>';
 			}else{
 				print '<i class="alert alert-danger">An Error occured!. Email not sent.</i>';
 			}
